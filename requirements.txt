@@ -1,0 +1,13 @@
+# --- Emotion-Music-MLOps Dependencies ---
+
+# Framework base (usamos el del sistema, pero lo declaramos para claridad)
+# python >= 3.9
+
+# Por ahora el script usa librerías estándar (logging, random, typing).
+# En cuanto integremos FastAPI o TensorFlow, las agregaremos aquí.
+
+# Testing (Próximo paso)
+pytest==7.4.3
+
+# Estándares de Código (Para que GitHub Action siga pasando)
+flake8==6.1.0
